@@ -1,6 +1,6 @@
 *{font-family: Arial, Helvetica, sans-serif;}
 header{
-    background: url(/assets/images/banner-bk.jpg);
+    background: url(assets/images/banner-bk.jpg);
     margin: -8px -8px 0 -8px;
     padding-left: 12%;
     padding-right: 2%;
@@ -132,7 +132,7 @@ span{
     height: 60px;
 }
 .contactDiv{
-    background: url(/assets/images/contact-bk.jpg);
+    background: url(assets/images/contact-bk.jpg);
     background-size: 50%;
     color: white;
     display: flex;
