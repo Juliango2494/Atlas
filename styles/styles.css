@@ -1,0 +1,267 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+header{
+    background: url(/assets/images/banner-bk.jpg);
+    margin: -8px -8px 0 -8px;
+    padding-left: 12%;
+    padding-right: 2%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+.earlyAccess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logEarlyAccess{
+    height: 50px;
+}
+h1{
+    font-size: 50px;
+}
+.white{
+    color: white;
+}
+.loremHeader{
+    margin-right: 40%;
+}
+.greenButton{
+    background-color: #00FFAF;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.blueButton{
+    background-color: #192440;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+}
+.whiteButton{
+    background-color: rgb(252, 255, 254);
+    padding: 10px 25px;
+    border-radius: 20px;
+    border-color: #192440;
+}
+.protectionData{
+    display: flex;
+    gap: 5%;
+    margin: 0 9%;
+    padding: 0 3%;
+    text-align: center;
+}
+.imgProtection{
+    height: 120px;
+}
+.infoProtection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.lookInside1{
+    display: flex;
+    flex-direction: row;
+    margin: 0 12%;
+    gap: 15%;
+}
+.lookInside2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    margin: 0 12%;
+    gap: 15%;
+}
+.imgLookInside{
+    height: 200px;
+}
+.pricingDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 12%;
+}
+.pricingPack{
+    display: flex;
+    flex-direction: row;
+
+}
+.planA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7%;
+}
+.planA:hover{
+    background-color: #192440;
+    color: white;
+    transform: none;
+}
+.whiteButton:hover{
+    background-color: #00FFAF;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.planB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7%;
+    background-color: #192440;
+    color: white;
+}
+span{
+    font-size: 55px;
+    font-weight: bold;
+}
+.sponsors{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #EDEEF0;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+.imgSponsors{
+    height: 60px;
+}
+.contactDiv{
+    background: url(/assets/images/contact-bk.jpg);
+    background-size: 50%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 10%;
+    gap: 15%;
+
+}
+.textContact{
+    max-width: 40%;
+}
+.backDegr{
+    margin-top: 70px;
+    background-color: #00FFAF;
+    background: linear-gradient(-12deg, #00FFAF 50%, #fffefe 50%);
+}
+footer{
+    background-color: #192440;
+    color: white;
+    padding: 15px;
+}
+form{
+    color:#00FFAF;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+.formDiv{
+    display: flex;
+    gap: 10%;
+}
+.inputForm1{
+    color: #00FFAF;
+    padding: 5px;
+    background: none;
+    border-color: #00FFAF;
+    border-radius: 5px;
+}
+.inputForm2{
+    color: #00FFAF;
+    padding: 5px;
+    width: 107%;
+    height: 25%;
+    background: none;
+    border-color: #00FFAF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.submitForm{
+    width: 107%;
+    background-color: #00FFAF;
+    padding: 7px;
+    border-radius: 15px;
+    
+}
+@media (max-width: 1279px){
+    .backDegr{
+        padding-bottom: 20px;
+    }
+    .imgSponsors{
+        height: 50px;
+    }
+}
+@media (max-width: 920px){
+    .imgSponsors{
+        height: 45px;
+    }
+    .imgLookInside{
+        height: 150px;
+    }
+    .lookInside1{
+        gap: 8%;
+        align-items: center;
+    }
+}
+@media (max-width: 768px){
+    .contactDiv{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .textContact{
+        max-width: 95%;
+    }
+    .sponsors{
+        gap: 1%;
+    }
+    .imgSponsors{
+        height: 35px;
+    }
+    .pricingPack{
+        flex-wrap: wrap;
+    }
+    .lookInside1{
+        flex-wrap: wrap;
+    }
+    .lookInside2{
+        flex-wrap: wrap;
+    }
+    .protectionData{
+        margin: 0 2%;
+    }
+    .imgLookInside{
+        height: 185px;
+    }
+}
+@media (max-width: 480px){
+    .protectionData{
+        flex-wrap: wrap;
+    }
+    .imgLookInside{
+        height: 150px;
+    }
+    h4{
+        margin: 1% 0;
+    }
+    .sponsors{
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    .form1{
+        width: 90%;
+    }
+    .inputForm2{
+        width: 100%;
+        height: 25%;  
+    }
+    .inputForm1{
+        width: 100%;
+        height: 25%;  
+    }
+}
