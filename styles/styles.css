@@ -132,7 +132,7 @@ span{
     height: 60px;
 }
 .contactDiv{
-    background: url(./assets/images/contact-bk.jpg);
+    background: url(../assets/images/contact-bk.jpg);
     background-size: 50%;
     color: white;
     display: flex;
